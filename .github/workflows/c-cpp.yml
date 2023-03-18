@@ -14,6 +14,5 @@ jobs:
     steps:
       - name: testiiing
         run: |
-          ls
-          chmod +x du1/tester/testall.sh
-          du1/tester/testall.sh
+          chmod +x "${GITHUB_WORKSPACE}/du1/tester/testall.sh"
+          ${GITHUB_WORKSPACE}/du1/tester/testall.sh
