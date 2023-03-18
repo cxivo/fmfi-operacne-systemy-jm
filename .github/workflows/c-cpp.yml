@@ -14,5 +14,6 @@ jobs:
     steps:
       - name: testiiing
         run: |
-          chmod +x /du1/tester/runtest.sh
-          /du1/tester/runtest.sh
+          ls /
+          chmod +x /du1/tester/testall.sh
+          /du1/tester/testall.sh
