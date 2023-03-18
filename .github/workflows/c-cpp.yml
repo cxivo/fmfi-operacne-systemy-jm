@@ -15,5 +15,5 @@ jobs:
       - name: testiiing
         run: |
           pwd
-          chmod +x ../../du1/tester/testall.sh
-          ../../du1/tester/testall.sh
+          chmod +x du1/tester/testall.sh
+          du1/tester/testall.sh
