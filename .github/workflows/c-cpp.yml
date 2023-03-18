@@ -14,6 +14,6 @@ jobs:
     steps:
       - name: testiiing
         run: |
-          pwd
+          ls
           chmod +x du1/tester/testall.sh
           du1/tester/testall.sh
