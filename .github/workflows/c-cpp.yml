@@ -12,5 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: chmod +x du1/tester/runtest.sh
-      - run: du1/tester/runtest.sh
+      - name: testiiing
+        run: |
+          chmod +x /./du1/tester/runtest.sh
+          /./du1/tester/runtest.sh
